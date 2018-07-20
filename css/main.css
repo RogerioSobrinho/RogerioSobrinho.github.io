@@ -16,6 +16,22 @@
     background-color: #292b2e!important;
 }
 
+#navigationBar > .container > a{
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #c53232!important;
+}
+
+.effect-hover-rs {
+    color: #c53232!important;
+}
+
+.effect-hover-rs:hover {
+    color: #fff!important;
+}
+
 .intro-overlay{
     background-color: #333;
     width: 100%;

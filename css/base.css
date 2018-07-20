@@ -1,3 +1,9 @@
 html, body {
     height: 100%;
 }
+
+.btn-rs{
+    background-color: #c53232!important;
+    border-color: #ffffff;
+    color:#fff;
+}

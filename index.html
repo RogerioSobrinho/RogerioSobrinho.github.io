@@ -29,18 +29,21 @@
         <!-- Header -->
         <header id="navbar">
             <!-- navbar -->
-            <nav id="navigationBar" class="navbar navbar-expand-lg navbar-dark">
+            <nav id="navigationBar" class="navbar fixed-top navbar-expand-lg navbar-dark">
                 <div class="container">
-                    <a class="navbar-brand" href="#intro">>_Rogerio_Sobrinho</a>
+                    <a class="navbar-brand effect-hover-rs" href="#intro">>_Rogerio_Sobrinho</a>
                     <button
                         class="navbar-toggler"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#navbar">
+                        data-target="#navbarMenu" 
+                        aria-controls="navbarMenu" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collpase navbar-collapse" id="navbar">
+                    <div class="collapse navbar-collapse" id="navbarMenu">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#intro">Home<span class="sr-only">(current)</span></a>
@@ -53,6 +56,9 @@
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="#more">More</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -71,17 +77,55 @@
                     <span>Front-end Developer</span>
                     <span>Back-end Developer</span>
                 </p>
+                <a href="#experience">
+                    <button type="button" class="btn btn-rs">Work Experience</button>
+                </a >
             </div>
         </section>
         <!-- /Intro -->
         <!-- About -->
-        <section id="about"></section>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div id="information" style="width: 100%; margin-top: 20px">
+                        <h3 class="mt-5 mb-5 text-center">About</h3>
+                        <div class="container row">
+                            <div id="avatar" class="col-sm">
+                                <img
+                                    src="image/intro/sky.jpg"
+                                    width="180px"
+                                    height="180px"
+                                    style="    border-radius: 100%;
+                                height: 8.6rem;
+                                width: 8.6rem;">
+                                <p class="mt-2">Rogerio Alves Sobrinho</p>
+                                <p>Hi!</p>
+                            </div>
+                            <div id="description" class="col-sm">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque nostrum
+                                    facilis quia iusto, accusamus libero nihil fugiat, debitis modi hic velit quod
+                                    eum neque tempore expedita dicta, aliquid provident?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- /About -->
         <!-- Experience -->
-        <section id="experience"></section>
+        <section id="experience"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque nostrum
+                facilis quia iusto, accusamus libero nihil fugiat, debitis modi hic velit quod
+                eum neque tempore expedita dicta, aliquid provident?</p></section>
         <!-- /Experience -->
         <!-- More -->
-        <section id="more"></section>
+        <section id="more"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque nostrum
+                facilis quia iusto, accusamus libero nihil fugiat, debitis modi hic velit quod
+                eum neque tempore expedita dicta, aliquid provident?</p></section>
+        <!-- /More -->
+        <!-- More -->
+        <section id="contact"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque nostrum
+                facilis quia iusto, accusamus libero nihil fugiat, debitis modi hic velit quod
+                eum neque tempore expedita dicta, aliquid provident?</p></section>
         <!-- /More -->
     </body>
     <script
