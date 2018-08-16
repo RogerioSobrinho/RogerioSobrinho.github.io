@@ -37,16 +37,16 @@
                             <a class="nav-link" href="#intro">Home<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#about">Sobre</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#experience">Work Experience</a>
+                            <a class="nav-link" href="#Portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a class="nav-link" href="#services">Serviços</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="#contact">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -57,16 +57,34 @@
     <!-- /Header -->
     <!-- Intro -->
     <section id="intro">
-        <div class="intro-overlay"></div>
         <div class="intro-content">
             <h3>Hello, World.</h3>
-            <h1>I'm Rogerio Sobrinho, I'm a Developer.</h1>
+            <h1>Rogerio Sobrinho</h1>
             <p class="intro-more">
                 <span>Front-end Developer</span>
                 <span>Back-end Developer</span>
             </p>
-            <a href="#experience">
-                <button type="button" class="btn btn-rs">Work Experience</button>
+            <a href="#about">
+                <div class="btn_next text-center mx-auto" style="
+                        position: relative;
+                        z-index: 30;
+                        cursor: pointer;
+                        display: block;
+                        width: 84px;
+                        line-height: 84px;
+                        background: #fff;
+                        border: 2px solid #ececec;
+                        -webkit-border-radius: 1000px;
+                        -moz-border-radius: 1000px;
+                        border-radius: 1000px;
+                        -webkit-transition: all .5s ease;
+                        -moz-transition: all .5s ease;
+                        -o-transition: all .5s ease;
+                        transition: all .5s ease;
+                        color: #0064b7;
+                    ">
+                        <i class="fa fa-angle-double-down"></i>
+                </div>
             </a>
         </div>
     </section>
@@ -75,65 +93,170 @@
     <section id="about">
         <div class="container pt-5 pb-5">
             <div class="row">
-                <div id="information" style="width: 100%; margin-top: 20px">
-                    <h2 class="section-heading text-center">About</h2>
-                    <div class="container row">
-                        <div id="avatar" class="col-sm">
-                            <img src="image/intro/sky.jpg" width="180px" height="180px" style="    border-radius: 100%;
-                                height: 8.6rem;
-                                width: 8.6rem;">
-                            <p class="mt-2">Rogerio Alves Sobrinho</p>
-                            <p>Hi!</p>
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">Sobre</h2>
+                    <hr class="divisor-hr-white"/>
+                    <h5 class="mb-1">Conheça um pouco sobre mim!</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div id="avatar" class="col-lg-12 mx-auto text-center pt-5">
+                    <img src="https://media.licdn.com/dms/image/C4D03AQF7bSEZhyxXzg/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=nbj1ZCVF5cOJjimXv_WblNguH_d7a7p0EOCQ0vzpyUE" width="280px" height="280px" style="    border-radius: 100%;
+                        height: 13.6rem;
+                        width: 13.6rem;">
+                    <h4 class="mt-2">Rogerio Alves Sobrinho</h4>
+                </div>
+                <div id="description" class="col-lg-12 mx-auto pb-5 pt-5" style=" padding:30px; border-radius: 29px;
+                border-left: 1px solid #333;
+                border-right: 1px solid #333;">
+                <p style="margin-bottom: 30px;font-size: 18px;line-height: 32px;">Full Stack Web Developer cursando Tecnólogo em Análise e Desenvolvimento de Sistemas e formado em Técnico em Informática pelo SENAC (Serviço Nacional de Aprendizagem Comercial), atua hà 4 anos como desenvolvedor em empresa de automação comercial com foco em desenvolvimento web e mobile, passando por todas fases do ciclo de vida do desenvolvimento web: Levantar requisitos de clientes e projetos; projetar wireframes, esboços de sites completos; converter esboços em 
+                código; e finalmente, implantar sites totalmente funcionais.
+                </p>
+                <p style="margin-bottom: 30px;font-size: 18px;line-height: 32px;">
+                Em outras palavras, o que eu faço é construir sites bonitos, fáceis de usar e totalmente funcionais;
+                </p>
+                <p style="margin-bottom: 30px;font-size: 18px;line-height: 32px;">
+                Um pouco mais sobre mim: Participo do Projeto "De Pessoas para Pessoas" levando o ensino (atualmente idioma inglês) para ONG's com atendimento gratuito a pessoas carentes, mas minha participação atual no projeto é desenvolvendo uma plataforma online que facilita a comunicação entre aluno e professor. E estou a dois semestres de concluir o meu Tecnólogo em Análise e Desenvolvimento de Sistemas.
+                </p>
+                <p style="margin-bottom: 30px;font-size: 18px;line-height: 32px;">
+                Sou proficiente nas técnologias de Desenvolvimento Web, como HTML5, CSS3, JavaScript, C#, Java, React, Angular, MySQL e MS SQL Server. No meu tempo livre, gosto de continuar desenvolvendo minhas habilidades e estudando os avanços das principais tendências do setor.
+                </p>
+                <p style="margin-bottom: 30px;font-size: 18px;line-height: 32px;">
+                Bem, agora você sabe um pouco sobre mim e sobre o que eu sei fazer. Olhe ao redor! Se você encontrar algo do seu interesse, sinta-se à vontade para entrar em contato! Eu estou sempre aguardando um próximo projeto com empolgação! 
+                </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /About -->
+    <!-- CV -->
+    <section id="cv">
+        <div class="container pt-5 pb-5">
+            <div class="row text-center">
+                <div class="col-sm-6">
+                        <h4 class="mt-2">Você é um empregador? Confira meu currículo. </h4>
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://rogeriosobrinho.github.io/image/curriculum/Rogerio_Sobrinho.pdf">
+                        <button class="btn btn-primary">
+                            <h5 class="pb-0 pt-1 pl-2 pr-2">Visualizar CV</h5>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /CV -->
+    <!-- Portfolio -->
+    <section id="Portfolio" style="background-color:#292b2e; color:#fff;">
+        <div class="container pb-5 pt-5">
+            <div class="row">
+                <div class="col-lg-12 mx-auto text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <hr class="divisor-hr-white"/>
+                    <h5 class="mb-5">Confira aqui nesta seção alguns dos meus trabalhos ou serviços realizados e projetos que participei!</h5>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <a href="http://www.hrtech.com.br" target="_blank">
+                            <img class="card-img-top" src="./image/portfolio/hrtech.png" alt="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">
+                                <a href="http://www.hrtech.com.br" target="_blank" style="color:#FFF">HR Tech</a>
+                            </h4>
                         </div>
-                        <div id="description" class="col-sm">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque nostrum facilis quia iusto, accusamus libero nihil fugiat, debitis modi hic velit quod eum neque tempore expedita dicta, aliquid provident?</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <a href="http://www.precolandia.com.br" target="_blank">
+                            <img class="card-img-top" src="./image/portfolio/precolandia.png" alt=""></a>
+                        <div class="card-body text-center">
+                        <h4 class="card-title">
+                            <a href="http://www.precolandia.com.br" target="_blank" style="color:#FFF">Preçolandia</a>
+                        </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="col-lg-6 mx-auto">
+                        <a href="http://portal.hrtech.com.br" target="_blank">
+                            <img class="card-img-top" src="./image/portfolio/portalHRTech.png" alt=""></a>
+                        <div class="card-body text-center">
+                        <h4 class="card-title">
+                            <a href="http://portal.hrtech.com.br" target="_blank" style="color:#FFF">HR Tech - Portal</a>
+                        </h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- /About -->
-    <!-- Experience -->
-    <section id="experience">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque nostrum facilis quia iusto, accusamus libero nihil fugiat, debitis modi hic velit quod eum neque tempore expedita dicta, aliquid provident?</p>
-    </section>
-    <!-- /Experience -->
-    <!-- Services -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading">Services</h2>
+    <!-- /Portfolio -->
+    <!-- CV -->
+    <section id="cv">
+            <div class="container pt-5 pb-5">
+                <div class="row text-center">
+                    <div class="col-sm-8">
+                            <h4 class="mt-2">Tenha você também um projeto desenvolvido por mim!</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#contact">
+                            <button class="btn btn-primary">
+                                <h5 class="pb-0 pt-1 pl-2 pr-2">Contate</h5>
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
+        </section>
+        <!-- /CV -->
+    <!-- Services -->
+    <section id="services" style="background-color:#292b2e; color:#fff;">
+        <div class="container pb-5 pt-5">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">Serviços</h2>
+                    <hr class="divisor-hr-white"/>
+                    <h5 class="mb-5">Sou Full Stack Web Developer e transformo designs em páginas para a internet com habilidade e design único.</h5>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
-                        <i class="fas fa-4x fa-diamond text-primary mb-3 sr-icons" data-sr-id="2" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
-                        <h3 class="mb-3">Responsive</h3>
-                        <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+                        <i class="fas fa-4x fa-desktop text-primary mb-3 sr-icons" data-sr-id="1"></i>
+                        <h3 class="mb-3">Websites</h3>
+                        <p class="text-muted mb-0">Desenvolvimento de sites com layout moderno e responsivo que se adaptam ao computador, celular, tablet ou qualquer formato de dispositivo e acesso. Preservando usabilidade, flexibilidade e navegabilidade.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
-                        <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons" data-sr-id="3" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
-                        <h3 class="mb-3">Responsive</h3>
-                        <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+                        <i class="fa fa-4x fa-palette text-primary mb-3 sr-icons" data-sr-id="2" ></i>
+                        <h3 class="mb-3">Identidade Visual</h3>
+                        <p class="text-muted mb-0">Só um logo não é suficiente. Toda a sua comunicação, para seus produtos ou serviços, precisam estar em sintonia através de cores, tipografia e padrões condizentes. Tudo pensado para diferenciar e destacar a sua marca.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
-                        <i class="fas fa-4x fa-newspaper-o text-primary mb-3 sr-icons" data-sr-id="4" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
-                        <h3 class="mb-3">Up to Date</h3>
-                        <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+                        <i class="fa fa-4x fa-globe-americas text-primary mb-3 sr-icons" data-sr-id="3"></i>
+                        <h3 class="mb-3">Registros de Domínios</h3>
+                        <p class="text-muted mb-0">Especialista no processo de registro de domínios em qualquer região do mundo. Mais de 3 mil possibilidades de extensões. Registro de domínios no Brasil e no exterior sem burocracia.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
-                        <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons" data-sr-id="5" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
-                        <h3 class="mb-3">Made with Love</h3>
-                        <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+                        <i class="fa fa-4x fa-store text-primary mb-3 sr-icons" data-sr-id="4"></i>
+                        <h3 class="mb-3">E-commerce/Lojas Virtuais</h3>
+                        <p class="text-muted mb-0">Desenvolvimento e gerenciamento de lojas virtuais para vender produtos ou serviços por meio do comércio eletrónico. Utilize a internet para vender de uma maneira segura, rápida e fácil de usar.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fa fa-4x fa-chart-pie text-primary mb-3 sr-icons" data-sr-id="5"></i>
+                        <h3 class="mb-3">Análises e relatórios</h3>
+                        <p class="text-muted mb-0">Saiba quantas pessoas acessam seu site, conteúdos mais acessados, alcance de ações nas redes sociais e muito mais. Análise de impactos e resultados para gerar aperfeiçoamento e resultados para o seu négocio.</p>
                     </div>
                 </div>
             </div>
@@ -141,24 +264,28 @@
     </section>
     <!-- /Services -->
     <!-- Contact -->
-    <section id="contact" style="background-color:#e8e8e8;">
+    <section id="contact" style="color: #fff;background-color: #0064b7;">
         <div class="container pt-5 pb-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading">Get in touch!</h2>
-                    <hr/>
-                    <p class="mb-5">Ready to start your next project with me? That's great! Give me a call or send me an email and we will get back to you as soon as possible!</p>
+                    <h2 class="section-heading">Contato</h2>
+                    <hr class="divisor-hr-white"/>
+                    <h5 class="mb-5">Entre em contato para dúvidas, sugestões, orçamentos, suporte ou qualquer outra forma de informação</h5>
                 </div>
             </div>
             <div class="row">
+                <div class="col-lg-12 ml-auto text-center pb-5">
+                    <a href="sms:+5511948512749" style="color:#fff">Enviar SMS</a><br/>
+                    <a href="whatsapp://send?text=Confira o site: http://www.rogeriosobrinho.github.io" style="color:#fff" data-action="share/whatsapp/share">Indicar este site via WhatsApp</a>
+                </div>
                 <div class="col-lg-4 ml-auto text-center">
                     <i class="fab fa-whatsapp fa-w-16 fa-3x"></i>
-                    <p>+55 (011) 94851-2749 </p>
+                    <p><a href="tel:+5511948512749" style="color:#fff">+55 11 94851-2749</a></p>
                 </div>
                 <div class="col-lg-4 mr-auto text-center">
                     <i class="far fa-envelope fa-w-16 fa-3x"></i>
                     <p>
-                        <a href="mailto:rogerioa.sobrinho@gmail.com">rogerioa.sobrinho@gmail.com</a>
+                        <a href="mailto:rogerioa.sobrinho@gmail.com" style="color:#fff">rogerioa.sobrinho@gmail.com</a>
                     </p>
                 </div>
             </div>
@@ -166,17 +293,41 @@
         <div class="container pt-5 pb-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading">Let's get social</h2>
-                    <hr/>
-                    <p class="mb-5">Follow my online fan page on Facebook and profiles on Instagram, GitHub and Linkedin.</p>
+                    <h2 class="section-heading">Redes Sociais</h2>
+                    <hr class="divisor-hr-white"/>
+                    <h5 class="mb-5">Conecte-se com minhas redes sociais</h5>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 ml-auto text-center">
-                    <button class="btn btn-primary"><i class="fab fa-facebook-f mr-2"></i>facebook</button>
-                    <button class="btn btn-primary"><i class="fab fa-instagram mr-2"></i>Instagram</button>
-                    <button class="btn btn-primary"><i class="fab fa-linkedin mr-2"></i>Linkedin</button>
-                    <button class="btn btn-primary"><i class="fab fa-github mr-2"></i>GitHub</button>
+                    <a href="#" target="_blank">
+                        <button class="btn" style="border-radius: 60px;height: 60px;width: 60px;">
+                            <div class="mx-auto text-center" style="width: 17px;">
+                                <i class="fab fa-facebook-f mr-2 fa-2x"></i>
+                            </div>
+                        </button>
+                    </a>
+                    <a href="https://www.instagram.com/rogeriojoe/" target="_blank">
+                        <button class="btn" style="border-radius: 60px;height: 60px;width: 60px;">
+                            <div class="mx-auto text-center" style="width: 29px;">
+                                <i class="fab fa-instagram mr-2 fa-2x"></i>
+                            </div>
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rogerio-sobrinho/" target="_blank">
+                        <button class="btn" style="border-radius: 60px;height: 60px;width: 60px;">
+                            <div class="mx-auto text-center" style="width: 28px;">
+                                <i class="fab fa-linkedin mr-2 fa-2x"></i>
+                            </div>
+                        </button>
+                    </a>
+                    <a href="https://github.com/RogerioSobrinho/" target="_blank">
+                        <button class="btn" style="border-radius: 60px;height: 60px;width: 60px;">
+                            <div class="mx-auto text-center" style="width: 32px;">
+                                <i class="fab fa-github mr-2 fa-2x"></i>
+                            </div>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

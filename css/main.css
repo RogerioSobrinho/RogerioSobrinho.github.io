@@ -1,9 +1,5 @@
 #intro {
-    background: #151515 url("../image/intro/sky.jpg") no-repeat center bottom;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color:#292b2e;
     width: 100%;
     height: 100%;
     min-height: 720px;
@@ -11,9 +7,43 @@
     position: relative;
     text-align: center;
 }
+#intro:before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 50%;
+    padding-top: 4%;
+    background: #0064b7;
+    -ms-transform: skew(0,4.5deg) translate(0,50%);
+    -webkit-transform: skew(0,4.5deg) translate(0,50%);
+    -moz-transform: skew(0,4.5deg) translate(0,50%);
+    -o-transform: skew(0,4.5deg) translate(0,50%);
+    transform: skew(0,4.5deg) translate(0,50%);
+}
+
+#intro:after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: '';
+    width: 50%;
+    padding-top: 4%;
+    background: #0064b7;
+    -ms-transform: skew(0,-4.5deg) translate(0,50%);
+    -webkit-transform: skew(0,-4.5deg) translate(0,50%);
+    -moz-transform: skew(0,-4.5deg) translate(0,50%);
+    -o-transform: skew(0,-4.5deg) translate(0,50%);
+    transform: skew(0,-4.5deg) translate(0,50%);
+}
+
+#about{
+    background-color:#0064b7;
+    color:#fff;
+}
 
 #navigationBar{
-    background-color: #292b2e!important;
+    background-color:#292b2e!important;
 }
 
 #navigationBar > .container > a{
@@ -21,26 +51,17 @@
 }
 
 .nav-link:hover{
-    color: #c53232!important;
+    color: #0064b7!important;
 }
 
 .effect-hover-rs {
-    color: #c53232!important;
+    color: #0064b7!important;
 }
 
 .effect-hover-rs:hover {
     color: #fff!important;
 }
 
-.intro-overlay{
-    background-color: #333;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.75;
-}
 
 .intro-content {
     display: table-cell;
@@ -52,7 +73,7 @@
 }
 
 .intro-content > h3{
-    color: #c53232;
+    color: #0064b7;
     font-family: "poppins-bold", sans-serif;
     font-size: 2.3rem;
     line-height: 1.565;
@@ -103,4 +124,8 @@
     display: inline-block;
     padding: 0 14px 0 8px;
     color: rgba(255, 255, 255, 0.3);
+}
+
+.divisor-hr-white{
+    background-color:#fff;
 }
