@@ -1,5 +1,9 @@
 {
- "name": "App",
+ "name": ">_Rogerio_Sobrinho",
+ "short_name": ">_RS",
+ "display": "minimal-ui",
+ "background_color": "#292B2E",
+ "theme_color": "#292B2E",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
