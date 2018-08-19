@@ -63,6 +63,15 @@
     <link rel="stylesheet" defer href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124246301-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-124246301-1');
+    </script>
 </head>
 
 <body>
@@ -412,7 +421,7 @@
         $(".navbar-collapse").removeClass("show");
     });
 </script>
-<script>
+<!--<script>
     // Register the service worker
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
@@ -423,5 +432,5 @@
             console.log('ServiceWorker registration failed: ', err);
         });
     }
-</script>
+</script>-->
 </html>
