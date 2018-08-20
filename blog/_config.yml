@@ -1,0 +1,39 @@
+title: "Posts"
+description: Minha pilha pessoal de problemas - By Rogerio Sobrinho
+author: Rogerio Sobrinho
+github: https://github.com/RogerioSobrinho
+about: Olá! Sou um desenvolvedor web full stack. Atualmente trabalhando mais com backend, com foco nas linguagens javascript e C#.
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: "https://media.licdn.com/dms/image/C4D03AQF7bSEZhyxXzg/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=nbj1ZCVF5cOJjimXv_WblNguH_d7a7p0EOCQ0vzpyUE"
+
+enableTags: true
+tagarray: []
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/rogerio-sobrinho"
+    - icon: fa-github
+      link: "https://github.com/RogerioSobrinho"
+      
+urls:
+    - text: Sobre mim
+      url: /sobre/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://RogerioSobrinho.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
