@@ -54,20 +54,16 @@
     background-color:#292b2e!important;
 }
 
-#navigationBar > .container > a{
-    font-weight: bold;
-}
-
 .nav-link:hover{
     color: #0064b7!important;
 }
 
 .effect-hover-rs {
-    color: #0064b7!important;
+    color: #fff!important;
 }
 
 .effect-hover-rs:hover {
-    color: #fff!important;
+    color: #0064b7!important;
 }
 
 .intro-content {
@@ -107,30 +103,6 @@
 
 .intro-content > .intro-more > span {
     display: inline-block;
-}
-
-.intro-content .intro-more span:first-child::before {
-    content: "|";
-    text-align: center;
-    display: inline-block;
-    padding: 0 14px 0 8px;
-    color: rgba(255, 255, 255, 0.3);
-}
-
-.intro-content .intro-more span:first-child::after {
-    content: "|";
-    text-align: center;
-    display: inline-block;
-    padding: 0px 14px 0 16px;
-    color: rgba(255, 255, 255, 0.3);
-}
-
-.intro-content .intro-more span:last-child::after {
-    content: "|";
-    text-align: center;
-    display: inline-block;
-    padding: 0 14px 0 8px;
-    color: rgba(255, 255, 255, 0.3);
 }
 
 .divisor-hr-white{
