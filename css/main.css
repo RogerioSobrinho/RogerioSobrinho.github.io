@@ -175,6 +175,16 @@
     width: 17.6rem;
 }
 
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 1200px;
+    }
+}
+
 @media (max-width: 768px) {
     #avatar{
         display: initial!important;
